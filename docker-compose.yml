@@ -1,6 +1,6 @@
 services:
   portainer-agents:
-    image: portainer/agent:2.45.2
+    image: portainer/agent:2.45.3
     environment:
     - AGENT_CLUSTER_ADDR=tasks.portainer-agents
     volumes:
