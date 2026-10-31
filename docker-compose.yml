@@ -14,3 +14,4 @@ services:
       restart_policy:
         condition: any
         delay: 5s
+volumes: {}
